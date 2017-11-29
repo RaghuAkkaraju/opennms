@@ -41,8 +41,7 @@
     <jsp:param name="headTitle" value="Reports" />
     <jsp:param name="location" value="report" />
     <jsp:param name="breadcrumb" value="Reports" />
-    <jsp:param name="script" value='<script type="text/javascript" src="lib/angular/angular.js"></script>' />
-    <jsp:param name="script" value='<script type="text/javascript" src="lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>' />
+    <jsp:param name="script" value='<script type="text/javascript" src="js/angular.min.js"></script>' />
     <jsp:param name="script" value='<script type="text/javascript" src="js/onms-search/app.js"></script>' />
 </jsp:include>
 

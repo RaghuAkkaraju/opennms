@@ -49,10 +49,7 @@
     <c:param name="meta"       value="<meta http-equiv='X-UA-Compatible' content='IE=Edge' />"/>
     <c:param name="renderGraphs" value="true" />
 
-    <c:param name="link" value='<link rel="stylesheet" type="text/css" href="lib/angular-growl-v2/build/angular-growl.css" />' />
-    <c:param name="script" value='<script type="text/javascript" src="lib/angular/angular.js"></script>' />
-    <c:param name="script" value='<script type="text/javascript" src="lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>' />
-    <c:param name="script" value='<script type="text/javascript" src="lib/angular-growl-v2/build/angular-growl.js"></script>' />
+    <c:param name="script" value='<script type="text/javascript" src="js/angular.min.js"></script>' />
     <c:param name="script" value='<script type="text/javascript" src="js/onms-ksc/add-to-ksc.js"></script>' />
 </c:import>
 

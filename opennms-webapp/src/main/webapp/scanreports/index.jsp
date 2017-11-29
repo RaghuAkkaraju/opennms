@@ -35,8 +35,7 @@
 	<jsp:param name="title" value="Remote Poller Scan Reports" />
 	<jsp:param name="headTitle" value="Remote Poller Scan Reports" />
 	<jsp:param name="breadcrumb" value="Remote Poller Scan Reports" />
-	<jsp:param name="script" value='<script type="text/javascript" src="lib/angular/angular.js"></script>' />
-	<jsp:param name="script" value='<script type="text/javascript" src="lib/angular-resource/angular-resource.js"></script>' />
+	<jsp:param name="script" value='<script type="text/javascript" src="js/angular.min.js"></script>' />
 
 	<jsp:param name="script" value='<script type="text/javascript" src="js/angular-onms-restresources.js"></script>' />
 	<jsp:param name="script" value='<script type="text/javascript" src="js/angular-onms-elementList.js"></script>' />

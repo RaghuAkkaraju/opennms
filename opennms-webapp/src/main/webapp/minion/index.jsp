@@ -35,8 +35,7 @@
 	<jsp:param name="title" value="Manage Minions" />
 	<jsp:param name="headTitle" value="Manage Minions" />
 	<jsp:param name="breadcrumb" value="Manage Minions" />
-	<jsp:param name="script" value='<script type="text/javascript" src="lib/angular/angular.js"></script>' />
-	<jsp:param name="script" value='<script type="text/javascript" src="lib/angular-resource/angular-resource.js"></script>' />
+	<jsp:param name="script" value='<script type="text/javascript" src="js/angular.min.js"></script>' />
 
 	<jsp:param name="script" value='<script type="text/javascript" src="js/angular-onms-restresources.js"></script>' />
 	<jsp:param name="script" value='<script type="text/javascript" src="js/angular-onms-elementList.js"></script>' />
