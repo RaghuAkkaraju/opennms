@@ -41,9 +41,6 @@
   <jsp:param name="breadcrumb" value="<a href='report/index.jsp'>Reports</a>" />
   <jsp:param name="breadcrumb" value="<a href='KSC/index.jsp'>KSC Reports</a>" />
   <jsp:param name="breadcrumb" value="Custom Graph" />
-  <jsp:param name="script" value='<script type="text/javascript" src="js/angular.min.js"></script>' />
-  <jsp:param name="script" value='<script type="text/javascript" src="lib/underscore/underscore.js"></script>' />
-  <jsp:param name="script" value='<script type="text/javascript" src="js/onms-ksc/wizard.js"></script>' />
 </jsp:include>
 
 <div class="container-fluid" ng-app="onms-ksc-wizard" ng-controller="KSCResourceCtrl">
@@ -214,4 +211,6 @@
 
 <div>
 
+<jsp:include page="/js/angular.min.jsp" flush="false" />
+<jsp:include page="/js/ksc-wizard.min.jsp" flush="false" />
 <jsp:include page="/includes/bootstrap-footer.jsp" flush="false" />

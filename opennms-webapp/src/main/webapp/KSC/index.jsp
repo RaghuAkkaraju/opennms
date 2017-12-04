@@ -59,9 +59,6 @@
   <jsp:param name="location" value="ksc" />
   <jsp:param name="breadcrumb" value="<a href='report/index.jsp'>Reports</a>" />
   <jsp:param name="breadcrumb" value="KSC Reports" />
-  <jsp:param name="script" value='<script type="text/javascript" src="js/angular.min.js"></script>' />
-  <jsp:param name="script" value='<script type="text/javascript" src="lib/bootbox/bootbox.js"></script>' />
-  <jsp:param name="script" value='<script type="text/javascript" src="js/onms-ksc/wizard.js"></script>' />
 </jsp:include>
 
 <div class="container-fluid" ng-app="onms-ksc-wizard" ng-controller="KSCWizardCtrl">
@@ -218,4 +215,6 @@
 
 </div>
 
+<jsp:include page="/js/angular.min.jsp" flush="false" />
+<jsp:include page="/js/ksc-wizard.min.jsp" flush="false" />
 <jsp:include page="/includes/bootstrap-footer.jsp" flush="false"/>

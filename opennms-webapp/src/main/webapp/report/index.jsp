@@ -41,8 +41,6 @@
     <jsp:param name="headTitle" value="Reports" />
     <jsp:param name="location" value="report" />
     <jsp:param name="breadcrumb" value="Reports" />
-    <jsp:param name="script" value='<script type="text/javascript" src="js/angular.min.js"></script>' />
-    <jsp:param name="script" value='<script type="text/javascript" src="js/onms-search/app.js"></script>' />
 </jsp:include>
 
 <div class="row">
@@ -150,4 +148,7 @@
   </div>
 </div>
   <hr />
+
+<jsp:include page="/js/angular.min.jsp" flush="false" />
+<jsp:include page="/js/search.min.jsp" flush="false" />
 <jsp:include page="/includes/bootstrap-footer.jsp" flush="false" />

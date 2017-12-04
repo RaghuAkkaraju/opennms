@@ -1,3 +1,8 @@
+<jsp:include page="/includes/bootstrap.jsp" flush="false">
+  <jsp:param name="title" value="Login" />
+  <jsp:param name="nonavbar" value="true" />
+</jsp:include>
+<%@ taglib prefix='c' uri='http://java.sun.com/jsp/jstl/core'%>
 <%--
 /*******************************************************************************
  * This file is part of OpenNMS(R).
@@ -26,16 +31,7 @@
  *     http://www.opennms.org/
  *     http://www.opennms.com/
  *******************************************************************************/
-
 --%>
-
-<%@ taglib prefix='c' uri='http://java.sun.com/jsp/jstl/core'%>
-
-<jsp:include page="/includes/bootstrap.jsp" flush="false">
-  <jsp:param name="title" value="Login" />
-  <jsp:param name="nonavbar" value="true" />
-</jsp:include>
-
 <jsp:include page="/includes/mobile-app-promo.jsp" flush="false" />
 
 <%-- this form-login-page form is also used as the 

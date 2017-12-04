@@ -3,8 +3,8 @@
         session="true"
 %>
 
-<script type="text/javascript" src="js/angular.min.js"></script>
-<script type="text/javascript" src="js/onms-search/app.js"></script>
+<jsp:include page="/js/angular.min.jsp" flush="false" />
+<jsp:include page="/js/search.min.jsp" flush="false" />
 
 <div id="onms-search">
 

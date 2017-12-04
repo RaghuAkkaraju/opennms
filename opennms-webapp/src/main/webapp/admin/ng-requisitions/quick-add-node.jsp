@@ -38,23 +38,13 @@
     <jsp:param name="headTitle" value="Quick-Add Node" />
     <jsp:param name="headTitle" value="Admin" />
     <jsp:param name="location" value="admin" />
-
-    <jsp:param name="script" value='<script type="text/javascript" src="js/angular.min.js"></script>' />
-    <jsp:param name="script" value='<script type="text/javascript" src="lib/ip-address/dist/ip-address-globals.js"></script>' />
-    <jsp:param name="script" value='<script type="text/javascript" src="lib/bootbox/bootbox.js"></script>' />
-
-    <jsp:param name="script" value='<script type="text/javascript" src="js/onms-requisitions/app-quickaddnode.js"></script>' />
-    <jsp:param name="script" value='<script type="text/javascript" src="js/onms-requisitions/scripts/model/RequisitionInterface.js"></script>' />
-    <jsp:param name="script" value='<script type="text/javascript" src="js/onms-requisitions/scripts/model/RequisitionNode.js"></script>' />
-    <jsp:param name="script" value='<script type="text/javascript" src="js/onms-requisitions/scripts/model/Requisition.js"></script>' />
-    <jsp:param name="script" value='<script type="text/javascript" src="js/onms-requisitions/scripts/model/RequisitionsData.js"></script>' />
-    <jsp:param name="script" value='<script type="text/javascript" src="js/onms-requisitions/scripts/model/QuickNode.js"></script>' />
-    <jsp:param name="script" value='<script type="text/javascript" src="js/onms-requisitions/scripts/services/Requisitions.js"></script>' />
-    <jsp:param name="script" value='<script type="text/javascript" src="js/onms-requisitions/scripts/directives/requisitionConstraints.js"></script>' />
-    <jsp:param name="script" value='<script type="text/javascript" src="js/onms-requisitions/scripts/controllers/QuickAddNode.js"></script>' />
 </jsp:include>
 
 <div ng-view></div>
 <div growl></div>
+
+<jsp:include page="/assets/load-assets.jsp" flush="false">
+  <jsp:param name="asset" value="quickaddnode" />
+</jsp:include>
 
 <jsp:include page="/includes/bootstrap-footer.jsp" flush="false"/>
