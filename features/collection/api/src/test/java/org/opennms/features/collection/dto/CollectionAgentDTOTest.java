@@ -47,7 +47,6 @@ public class CollectionAgentDTOTest extends XmlTestNoCastor<CollectionAgentDTO> 
     @Parameters
     public static Collection<Object[]> data() throws ParseException {
         CollectionAgentDTO collectionAgentDTO = new CollectionAgentDTO();
-        collectionAgentDTO.setType(42);
         collectionAgentDTO.setAddress(InetAddressUtils.getInetAddress("192.168.1.1"));
         collectionAgentDTO.setAttribute("k1", "v1");
         collectionAgentDTO.setStoreByForeignSource(true);
